@@ -1,9 +1,13 @@
 <template>
-  <Tutorial />
+  <div>
+    <PaperDownloader />
+  </div>
 </template>
 
 <script>
+import PaperDownloader from "~/components/PaperDownloader.vue";
 export default {
-  name: 'IndexPage'
+    name: "IndexPage",
+    components: { PaperDownloader }
 }
 </script>
