@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'paper-downloader-nuxt2',
+    title: 'Paper Downloader',
     htmlAttrs: {
       lang: 'en'
     },
