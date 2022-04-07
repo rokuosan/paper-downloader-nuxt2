@@ -6,7 +6,7 @@
       <h3 class="md:text-2xl text-xl italic">This application was designed to download Paper easier.</h3>
     </div>
 
-    <div class="content text-2xl py-5 w-5/6 mx-auto grid grid-cols-1 gap-10">
+    <div class="content text-2xl md:py-5 w-5/6 mx-auto grid grid-cols-1 gap-10">
 
       <div class="version flex items-center gap-3">
         <span>Version:</span>
@@ -40,7 +40,7 @@
         </template>
       </div>
 
-      <div class="result my-5" v-show="isDefinedBuild">
+      <div class="result md:my-5 my-3" v-show="isDefinedBuild">
         <div>
           <div class="h-0.5 w-full bg-black"></div>
         </div>

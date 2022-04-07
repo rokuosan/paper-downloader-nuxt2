@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen gradient fixed bottom-0">
-    <nav class="mx-4 md:content-center grid md:grid-cols-2 md:h-20 h-24">
+    <nav class="mx-4 md:content-center grid md:grid-cols-2 md:h-20 h-16">
       <div class="text-base justify-self-start self-center">
         Copyright Ⓒ 2022 rokuosan , All rights reserved.
       </div>
