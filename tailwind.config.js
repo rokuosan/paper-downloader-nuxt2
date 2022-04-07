@@ -7,7 +7,12 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
+    fontFamily: {
+      'questrial': ['Questrial', 'sans-serif']
+    },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
